@@ -13,7 +13,7 @@ Ready-to-import Postman collection for testing and integrating with the Routing 
 
 ### Setup
 
-1. Get your API key from https://github.com/werouteapi/routing-api-docs
+1. Get your API key from https://dashboard.routingapi.com
 2. In Postman, go to **Environments** → **Routing API**
 3. Set `api_key` to your key
 4. Set `base_url` to:
@@ -77,7 +77,7 @@ Tests are included for:
 
 ## Documentation
 
-Full API reference: https://github.com/werouteapi/routing-api-docs
+Full API reference: https://docs.routingapi.com
 
 ## Support
 
