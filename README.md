@@ -13,12 +13,12 @@ Ready-to-import Postman collection for testing and integrating with the Routing 
 
 ### Setup
 
-1. Get your API key from https://dashboard.routingapi.com
+1. Get your API key from https://dashboard.webundle.org
 2. In Postman, go to **Environments** → **Routing API**
 3. Set `api_key` to your key
 4. Set `base_url` to:
-   - Production: `https://api.routingapi.com`
-   - Sandbox: `https://sandbox.routingapi.com`
+   - Production: `https://api.webundle.org`
+   - Testing: Use `sk_test_*` API keys with same URL
 
 ### First Request
 
@@ -68,16 +68,16 @@ Tests are included for:
 
 ```json
 {
-  "base_url": "https://api.routingapi.com",
+  "base_url": "https://api.webundle.org",
   "api_key": "your-api-key",
   "merchant_id": "your-merchant-id",
-  "sandbox_enabled": false
+  "sandbox_enabled": true
 }
 ```
 
 ## Documentation
 
-Full API reference: https://docs.routingapi.com
+Full API reference: https://docs.webundle.org
 
 ## Support
 
